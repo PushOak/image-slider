@@ -32,3 +32,7 @@ Hide the shown page using the variable
 Show the page you want to display i.e. about page
 Change the currentPageId with the new page
 
+# Step 9 - add media link
+first add media nav bar and media page
+add the parameters corresponding to the media page classes
+
