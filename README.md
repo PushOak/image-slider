@@ -17,4 +17,7 @@ Home Page link - display the about page.
 # Step 4 - Homepage clickable
 When pressing homepage the homepage section is shown and hide the about section
 
+# Step 5
+Duplicated the homepage link code and adjusted it to the about page
+
 
