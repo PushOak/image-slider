@@ -20,4 +20,7 @@ When pressing homepage the homepage section is shown and hide the about section
 # Step 5
 Duplicated the homepage link code and adjusted it to the about page
 
+# Step 6 - move script to separate file
+copied and cut the javascript from index.html to app.js
+
 
