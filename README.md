@@ -23,4 +23,7 @@ Duplicated the homepage link code and adjusted it to the about page
 # Step 6 - move script to separate file
 copied and cut the javascript from index.html to app.js
 
+# Step 7 - Add function to change pages in order to avoid code duplication
+
+
 
