@@ -1,2 +1,2 @@
-# image-slider
+# Create Image slider
  
