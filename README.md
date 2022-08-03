@@ -1,5 +1,5 @@
 # Create Image slider
- 
+
 # Step 1
 Added html page from bootstrap
 
@@ -26,4 +26,9 @@ copied and cut the javascript from index.html to app.js
 # Step 7 - Add function to change pages in order to avoid code duplication
 The function get a linkId and pageToHide and pageToShow and show the correct page
 
+# Step 8 - Use currentPageId
+Hold the shown page in a variable currentPageId
+Hide the shown page using the variable
+Show the page you want to display i.e. about page
+Change the currentPageId with the new page
 
