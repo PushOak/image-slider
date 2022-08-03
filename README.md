@@ -24,6 +24,6 @@ Duplicated the homepage link code and adjusted it to the about page
 copied and cut the javascript from index.html to app.js
 
 # Step 7 - Add function to change pages in order to avoid code duplication
-
+The function get a linkId and pageToHide and pageToShow and show the correct page
 
 

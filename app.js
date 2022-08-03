@@ -1,7 +1,7 @@
 function makeMenuLinkChangePage(linkId, pageToHide, pageToShow) {
-    console.log(linkId, pageToHide, pageToShow);
+    // console.log(linkId, pageToHide, pageToShow);
     const pageLinkElement = document.getElementById(linkId);
-
+    
     pageLinkElement.addEventListener('click', function () {
         console.log('You clicked me');
         document.getElementById(pageToShow).classList.remove('d-none');
