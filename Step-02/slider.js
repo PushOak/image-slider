@@ -1,26 +1,33 @@
-// function buttonChange(btnId) {
-//     const buttonElement = document.getElementById(btnId);
 
-//     buttonElement.addEventListener('click', function() {
+const imgArr = [
+    'OHR.HickmanBridge_ROW9566895207_1920x1080.jpg',
+    'OHR.LongsPeak_ROW9098186381_1920x1080.jpg',
+    'OHR.NoctilucentClouds_ROW9144099035_1920x1080.jpg',
+    'OHR.SpiralHill_ROW7328923046_1920x1080.jpg'
+];
 
-//         if(btnId == 'prev') {
-//             console.log('you clicked the previous button');
-//         } else if(btnId == 'next') {
-//             console.log('you clicked the next button');
-//         }
-//     })
-// };
+let currentImage = 0;
 
-// buttonChange('prev');
-// buttonChange('next');
-
+function renderImg() {
+    const imgURL = 'images/' + imgArr[currentImage];
+    document.getElementById('slider-image').src = imgURL;
+}
 
 function prevImg() {
-    console.log('You clicked on the previous image button');
+    currentImage--;
+    if(currentImage < 0) {
+        currentImage = imgArr.length - 1;
+    }
+    renderImg();
+
 }
 
 function nextImg() {
-    console.log('You clicked on the next image button');
+    currentImage++;
+    if (currentImage > (imgArr.length - 1)) {
+        currentImage = 0;
+    }
+    renderImg();
 }
 
 document.getElementById('prev').addEventListener('click', prevImg)
